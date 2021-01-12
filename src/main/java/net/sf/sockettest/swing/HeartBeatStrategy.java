@@ -21,7 +21,7 @@ import java.io.PrintWriter;
 import java.net.Socket;
 
 /**
- * Created by emodsri on 2/18/2016.
+ * Created by Srikanth on 2/18/2016.
  */
 public class HeartBeatStrategy extends JPanel {
     private JPanel radioPanel;

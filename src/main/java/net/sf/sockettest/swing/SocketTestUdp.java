@@ -27,7 +27,7 @@ public class SocketTestUdp extends JPanel /*JFrame*/ {
     
     private JLabel ipLabel1 = new JLabel("IP Address");
     private JLabel portLabel1 = new JLabel("Port");
-    private JLabel logoLabel = new JLabel("Ericsson Socket Test", logo,
+    private JLabel logoLabel = new JLabel("Socket Test", logo,
             JLabel.CENTER);
     
     private JTextField ipField1 = new JTextField("0.0.0.0",20);

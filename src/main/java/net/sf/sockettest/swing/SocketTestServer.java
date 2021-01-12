@@ -50,7 +50,7 @@ public class SocketTestServer extends JPanel /*JFrame*/ {
 
     private JLabel ipLabel = new JLabel("IP Address");
     private JLabel portLabel = new JLabel("Port");
-    private JLabel logoLabel = new JLabel("Ericsson Socket Test", logo,
+    private JLabel logoLabel = new JLabel("Socket Test", logo,
             JLabel.CENTER);
     private JTextField ipField = new JTextField("0.0.0.0",20);
     private JTextField portField = new JTextField("21",10);

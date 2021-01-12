@@ -3,7 +3,7 @@ package net.sf.sockettest.vo;
 import java.util.HashMap;
 
 /**
- * Created by emodsri on 2/19/2016.
+ * Created by Srikanth on 2/19/2016.
  */
 public class RuleEntity {
     private String ruleName;

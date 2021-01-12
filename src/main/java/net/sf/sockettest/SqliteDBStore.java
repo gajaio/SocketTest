@@ -15,7 +15,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.regex.Pattern;
 
 /**
- * Created by emodsri on 2/19/2016.
+ * Created by Srikanth on 2/19/2016.
  */
 public class SqliteDBStore {
     private String jdbcUrl;

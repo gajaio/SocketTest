@@ -67,7 +67,7 @@ public class SocketTestClient extends JPanel {
     
     private JLabel ipLabel = new JLabel("IP Address");
     private JLabel portLabel = new JLabel("Port");
-    private JLabel logoLabel = new JLabel("Ericsson Socket Test", logo,
+    private JLabel logoLabel = new JLabel("Socket Test", logo,
             JLabel.CENTER);
     private JTextField ipField = new JTextField("127.0.0.1",20);
     private JTextField portField = new JTextField("21",10);
@@ -424,10 +424,9 @@ public class SocketTestClient extends JPanel {
         messagesField.setText("");
         socketClient=SocketClient.handle(this,socket);
         socketClient.addMessageListener(new OnMessageRecieve() {
-            public void onRecieveMsg(Socket so, String message) {
+            public void onRecieveMsg(final Socket so, final String message) {
             	new Thread(new Runnable() {
 					
-					@Override
 					public void run() {
 						// TODO Auto-generated method stub
 						try {

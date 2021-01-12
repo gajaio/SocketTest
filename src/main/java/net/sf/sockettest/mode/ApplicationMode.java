@@ -5,7 +5,7 @@ import net.sf.sockettest.SqliteDBStore;
 import java.util.Timer;
 
 /**
- * Created by emodsri on 2/19/2016.
+ * Created by Srikanth on 2/19/2016.
  */
 public class ApplicationMode {
     private AppMode mode;

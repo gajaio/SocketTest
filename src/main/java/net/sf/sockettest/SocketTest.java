@@ -63,7 +63,7 @@ public class SocketTest extends JFrame {
 		if(toSplash) splash = new SplashScreen();
         
         SocketTest st = new SocketTest();
-        st.setTitle("Ericsson TCP Socket Test v 1");
+        st.setTitle("TCP Socket Test v 1");
         st.setSize(600,620);
         Util.centerWindow(st);
         st.setDefaultCloseOperation(EXIT_ON_CLOSE);

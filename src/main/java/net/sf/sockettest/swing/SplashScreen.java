@@ -16,7 +16,7 @@ public class SplashScreen extends JWindow {
 	ClassLoader cl = getClass().getClassLoader();
         logo = new ImageIcon(cl.getResource("icons/logo.gif"));
         productName = new JLabel("<html><font face=\"Verdana\" size=10>"+
-                "Ericsson Socket Test",logo,JLabel.CENTER);
+                "Socket Test",logo,JLabel.CENTER);
         //productName.setBackground(Color.white);
         productName.setOpaque(true);
         

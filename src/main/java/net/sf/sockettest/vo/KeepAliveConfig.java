@@ -1,7 +1,7 @@
 package net.sf.sockettest.vo;
 
 /**
- * Created by emodsri on 2/23/2016.
+ * Created by Srikanth on 2/23/2016.
  */
 public class KeepAliveConfig {
     private String configName;
