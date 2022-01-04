@@ -4,6 +4,7 @@ import net.sf.sockettest.swing.*;
 import net.sf.sockettest.swing.SplashScreen;
 
 import javax.swing.*;
+import javax.swing.border.EmptyBorder;
 import java.awt.*;
 
 /**
@@ -64,7 +65,7 @@ public class SocketTest extends JFrame {
         
         SocketTest st = new SocketTest();
         st.setTitle("TCP Socket Test v 1");
-        st.setSize(600,620);
+        st.setSize(1000,1020);
         Util.centerWindow(st);
         st.setDefaultCloseOperation(EXIT_ON_CLOSE);
         st.setIconImage(st.logo.getImage());
